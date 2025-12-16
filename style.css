@@ -785,3 +785,40 @@ body.menu-open {
   opacity: 1;
   transform: scale(1);
 }
+
+.main-button {
+  color: var(--color-gold);
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 35px;
+  border: 1px solid var(--color-gold);
+  width: 270px;
+  padding: 10px 15px;
+  margin: auto;
+  background-color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3 ease;
+  cursor: pointer;
+  box-shadow: -4px 4px 21px 2px rgba(182, 182, 182, 0.42);
+  -webkit-box-shadow: -4px 4px 21px 2px rgba(182, 182, 182, 0.42);
+  -moz-box-shadow: -4px 4px 21px 2px rgba(182, 182, 182, 0.42);
+}
+
+.main-button::before {
+  position: absolute;
+  content: "";
+  width: 280px;
+  height: 63px;
+  border: 1px solid var(--color-text);
+  border-radius: 35px;
+}
+
+.main-button i {
+  margin-right: 15px;
+}
+
+.advantages .main-button {
+  margin-top: 20px;
+}
