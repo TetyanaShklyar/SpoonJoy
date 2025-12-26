@@ -105,6 +105,7 @@
   }
   .certificate-list li {
     margin-left: 0;
+    padding-left: 10px;
   }
   .certificate-list li::before {
     position: relative;
@@ -161,5 +162,8 @@
   }
   .advantages {
     background-size: 130vh;
+  }
+  .certificate-title {
+    font-size: 43px;
   }
 }

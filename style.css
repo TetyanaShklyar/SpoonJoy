@@ -484,6 +484,15 @@ h6 {
   grid-template-columns: 1.1fr 1fr;
   gap: 80px;
   align-items: center;
+  margin-bottom: 120px;
+}
+.certificates-inner.reverse {
+  direction: rtl;
+  margin-bottom: 0;
+}
+
+.certificates-inner.reverse > * {
+  direction: ltr;
 }
 
 .certificate-image {
